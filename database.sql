@@ -43,12 +43,12 @@ values
 (4, 1, '2021-02-02'),
 (5, 1, '2021-02-02'),
 (5, 2, '2021-02-02'),
-(6, 2, '2021-02-02')
+(6, 2, '2021-02-02');
 
 create table employees_json (
    id bigint constraint pk_employees_json primary key,
    data jsonb not null
-)
+);
 
 insert into employees_json
 (id, data)
